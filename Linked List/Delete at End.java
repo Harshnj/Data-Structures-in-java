@@ -103,6 +103,10 @@ class LinkedList{
    public void print(){
        int ct=0;
        Node curr=head;
+           if(head==null){
+            System.out.println("No elements in Linked list");
+            return;
+        }
        while(curr.next!=null){
            System.out.print(curr.data+" ");
            curr=curr.next;
