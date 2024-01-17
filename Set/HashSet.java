@@ -1,4 +1,6 @@
 import java.util.HashSet;
+//Set is a collection of unique elements
+//HashSet is collection of unique elements in unordered fashion
 
 public class Hashset {
     public static void main(String[] args) {
